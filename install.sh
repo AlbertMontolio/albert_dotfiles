@@ -8,4 +8,6 @@ if [ ! -d "$ZSH_PLUGINS_DIR/zsh-syntax-highlighting" ]; then
 fi
 cd "$CURRENT_DIR"
 
+source ~/.zshrc
 zsh ~/.zshrc
+echo 'finished with zsh.'
