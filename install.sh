@@ -11,6 +11,8 @@ cd "$CURRENT_DIR"
 # set .zshrc
 wget -O $HOME/.zshrc https://raw.githubusercontent.com/AlbertMontolio/albert_dotfiles/master/.zshrc
 
+ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" /usr/local/bin/sublime
+
 echo 'finished with zsh.'
 source ~/.zshrc
 zsh ~/.zshrc
