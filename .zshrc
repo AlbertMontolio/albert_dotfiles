@@ -8,7 +8,7 @@ export ZSH="/Users/albertmontolio/.oh-my-zsh"
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
 # ZSH_THEME="robbyrussell"
-ZSH_THEME="random"
+ZSH_THEME="agnoster"
 plugins=(git alias-tips zsh-completions almostontop zsh-autosuggestions pip )
 
 # Set list of themes to pick from when loading at random
