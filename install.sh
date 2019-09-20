@@ -8,6 +8,9 @@ if [ ! -d "$ZSH_PLUGINS_DIR/zsh-syntax-highlighting" ]; then
 fi
 cd "$CURRENT_DIR"
 
+# set .zshrc
+wget -O $HOME/.zshrc https://raw.githubusercontent.com/AlbertMontolio/albert_dotfiles/master/.zshrc
+
 source ~/.zshrc
 zsh ~/.zshrc
 echo 'finished with zsh.'
