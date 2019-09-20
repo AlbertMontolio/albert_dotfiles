@@ -10,6 +10,7 @@ cd "$CURRENT_DIR"
 
 # set .zshrc
 wget -O $HOME/.zshrc https://raw.githubusercontent.com/AlbertMontolio/albert_dotfiles/master/.zshrc
+wget -O $HOME/.vimrc https://raw.githubusercontent.com/AlbertMontolio/albert_dotfiles/master/.vimrc
 
 ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" /usr/local/bin/subl
 
