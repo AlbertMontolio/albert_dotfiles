@@ -28,7 +28,8 @@ Plugin 'rstacruz/sparkup', {'rtp': 'vim/'}
 " Plugin 'ascenator/L9', {'name': 'newL9'}
 
 " All of your Plugins must be added before the following line
-Plugin 'dracula/vim'
+" Plugin 'dracula/vim'
+Plugin 'sheerun/dracula-theme'
 call vundle#end()            " required
 filetype plugin indent on    " required
 " To ignore plugin indent changes, instead use:
