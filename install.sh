@@ -11,6 +11,6 @@ cd "$CURRENT_DIR"
 # set .zshrc
 wget -O $HOME/.zshrc https://raw.githubusercontent.com/AlbertMontolio/albert_dotfiles/master/.zshrc
 
+echo 'finished with zsh.'
 source ~/.zshrc
 zsh ~/.zshrc
-echo 'finished with zsh.'
